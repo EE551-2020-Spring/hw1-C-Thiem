@@ -63,7 +63,7 @@ def dictionaries():
     #   color => "green"
     f = {"fruit": "apple", "quantity": 4, "color": "green"}
     # Get the item in dictionary f that the key "fruit" maps to
-    f["fruit"]
+    a = f["fruit"]
     # Increase the quantity of f by 1
     # IMPLEMENT IT HERE
     f["quantity"] += 1
@@ -80,7 +80,7 @@ def dictionaries():
     # Use the sort() function to get sorted keys of amazing_grace in alphabetically ascending order
     k = [key for key, value in amazing_grace.items()]
     k.sort()
-    return amazing_grace, f, p, k
+    return a, f, p, k
 
 numbers_and_strings()
 lists()
